@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <!--Proyectos-->
+    <!--Proyectos-->                                                                                                                                                                                                                                            
     <section id="Proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
         <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
         <h3 class="seccion-descripcion">Estos son algunos de mis proyectos recientes</h3>
@@ -124,9 +124,9 @@
                 <!--Proyecto 1-->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="proyecto">
-                        <img src="imagen/Captura de pantalla 2023-01-21 165704.png" alt="Proyecto 1">
+                        <img src="imagen/Captura de pantalla 2023-01-21 165704.png" alt="pagina web">
                         <div class="overlay">
-                            <p>Proyecto 1</p>
+                            <p>Pagina Web</p>
                             <div class="iconos-contenedor">
                                 <a href="https://github.com/Max033" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
@@ -141,9 +141,9 @@
                 <!--Proyecto 2-->
                 <div class="col-12 col-md-6 col-lg-4">
                                     <div class="proyecto">
-                                        <img src="imagen/52714.jpg" alt="Proyecto 1">
+                                        <img src="imagen/52714.jpg" alt="juego de la vida">
                                         <div class="overlay">
-                                            <p>Proyecto 2</p>
+                                            <p>Game of Life</p>
                                             <div class="iconos-contenedor">
                                                 <a href="https://github.com/Max033" target="_blank" rel="noopener noreferrer">
                                                     <i class="bi bi-github"></i>
@@ -289,29 +289,85 @@
     </section>
 
     <!--Contacto-->
-    <section id="Contacto" class="contacto seccion-oscura">
-        <div class="container">
-            <div class="container text-center rectangulo d-flex justify-content-evenly">
-                <div class="row">
-                    <div class="col-12 col-md-4 seccion-titulo">
-                        Hablemos!
-                    </div>
-                    <div class="col-12 col-md-4 descripcion">
-                        <p>Contactame para diseñar tu proyecto y hare que tu visión se haga ralidad</p>
 
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <a href="mailto:maximiliano.iacoboni@gmail.com">
-                            <button type="button">
-                                contacto
-                                <i class="bi bi-envelope-at"></i>
-                            </button>
-                        </a>
+    <!--formulario-->
+    <section id="Contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            Hablemos!
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            <p>Contactame para diseñar tu proyecto y hare que tu visión se haga ralidad</p>
+    
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:maximiliano.iacoboni@gmail.com">
+                                <button type="button">
+                                    contacto
+                                    <i class="bi bi-envelope-at"></i>
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
+    <!--Contact-->    
+    <div id="Contacto" class="container-fluid formulario-principal d-flex flex-column  seccion-oscura">
+        <form action="https://formsubmit.co/maximiliano.iacoboni@gmail.com" method="POST" class="row needs-validation"  >
+            
+            <div class="from-header text-center">
+                <h1 class="col form-title  "> Contactate con migo!</h1>
+            </div>
+    
+            <div class="col-md-4 position-relative" novalidate>
+                <label for="nombre" class="form-label">Nombres:</label>
+                <input type="text" name="nombre" class="form-control" placeholder="escriba su nombre" required>
+                <div class="valid-tooltip">
+                    El nombre ingresado es valido.
+                </div>
+                <div class="invalid-tooltip">
+                        El dato ingresado no es valido.
+                </div>
+            </div>
+    
+            <div class="col-md-4 position-relative">
+                <label for="subject" class="form-label">Asunto:</label>
+                <input type="text" name="subject" class="form-control" placeholder="escriba su correo" required>
+                <div class="valid-tooltip">
+                    El comentario ingresado es valido.
+                </div>
+                <div class="invalid-tooltip">
+                    El comentario ingresado no es valido.
+                </div>
+            </div>
+    
+            <div class="col-md-4 position-relative">
+                <label for="correo" class="form-label">Correo Electronico:</label>
+                <input type="email" name="correo" class="form-control" placeholder="escriba su correo" required>
+                <div class="valid-tooltip">
+                    El Correo ingresado es valido.
+                </div>
+                <div class="invalid-tooltip">
+                    El Correo ingresado no es valido.
+                </div>
+            </div>
+    
+            <div class="col-md-12 " style="width: 300rem;">
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea  name="mensaje" class="form-control" placeholder="escriba su mensaje" required></textarea>
+            </div>
+            
+            <div class="col-12 boton text-center">
+                <button type="subnit" class="btn btn-outline-secondary">Enviar</button>
+            </div>
+    
+            <input type="hidden" name="_next" value="http://127.0.0.1:5502/">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </div>
 
     <!-- Pie de pagina -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
@@ -338,11 +394,11 @@
         <div class="derechos-de-autor">
             Creado por Esteban Maximiliano Iacoboni (2023) &#169;
         </div>
-
     </footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+    <!-- JS Validacion-->
+    <script src="js/function.js"></script>
+    <!-- JS Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
 </body>
 </html>
 
