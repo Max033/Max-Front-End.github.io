@@ -2,8 +2,8 @@
 /*--------------------------------------------------Barra de navegacion--------------------------------------------------*/
 
 .navbar {
-    padding: 2rem;
-    background-color: #f5f6f7;
+    padding: 1rem;
+    background-color: #ffffff;
 }
 
 .navbar-collapse {
@@ -41,18 +41,29 @@ h1 {
     font-size: 2rem;
     padding: 15px 0;
     font-family: 'Diplomata', cursive;
+    color: ;
 }
 
 .seccion-descripcion {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    padding: 2rem;
+    color: #584e4e;
+    font-family: 'Righteous', cursive;
+}
+
+.seccion-sub-titulo {
+    font-size: 1.6rem;
+    padding: 2rem;
+    font-family: 'Righteous', cursive;
     color: #584e4e;
 }
 
 .seccion-texto {
     font-size: 1.2rem;
-    padding: 2rem;
+    padding:2rem ;
+    font-family: 'Righteous', cursive;
+    color: ;
 }
-
 .texto-negro{
     color: #000000;
 }
@@ -65,8 +76,13 @@ h1 {
 /*--------------------------------------------------Principal--------------------------------------------------*/
 .principal {
     background-color: #f5f6f7;
-    min-height: 450px;
+    min-height: 300px;
     text-align: center;
+    background-image: url("/imagen/desk3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
 .principal-1 {
     padding: 3rem;
@@ -88,7 +104,7 @@ h1 {
 
 /*--------------------------------------------------About Me--------------------------------------------------*/
 .about-me {
-    height: 500px;
+    height: 800px;
     padding: 10px;
 
 }
@@ -99,15 +115,6 @@ h1 {
 
 }
 
-/*.seccion-titulo-1 {
-    padding-top: 100px;
-    margin-top: 100px;
-    font-family: ;
-}*/
-
-.seccion-titulo-2 {
-    font-family: ;
-}
 /*--------------------------------------------------Experiencia--------------------------------------------------*/
 .experiencia {
     padding: 40px 40px 40px 40px;
@@ -137,7 +144,7 @@ h1 {
 
 .experiencia i {
     font: 2.5rem;
-    color: rgb(5, 151, 129);
+    color: rgb(31, 149, 239);
     background-color: #000000;
     padding: 8px 19px;
     border-radius: 50%; 
@@ -154,14 +161,15 @@ h1 {
 }
 
 .experiencia-titulo {
-    margin:40px;
-    padding-top: 60px;
+    margin:25px;
+    padding-top: 45px;
 }
 
 /*--------------------------------------------------¨Proyectos--------------------------------------------------*/
 
 .proyectos-recientes {
     padding: 40px;
+    text-align: center;
     
 }
 
@@ -196,8 +204,8 @@ h1 {
 }
 
 .proyecto img {
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 370px;
 }
 
 .proyecto {
@@ -410,7 +418,7 @@ footer {
 
 @media screen and (min-width:700px) {
     .imagen-principal-inferior {
-        max-width: 500px;
+        max-width: 400px;
     }
 }
 
