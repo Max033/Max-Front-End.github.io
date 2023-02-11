@@ -78,7 +78,7 @@ h1 {
     background-color: #f5f6f7;
     min-height: 300px;
     text-align: center;
-    background-image: url("/imagen/desk3.png");
+    background-image: url("/imagen/fondo-punk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -180,11 +180,13 @@ h1 {
     border-radius: 10px;
     display: block;
     transition: all 0.2s ease;
+    
 }
 
 .proyectos-contenedor {
     padding-top: 60px;
     margin-bottom: 40px;
+
 }
 
 .overlay {
@@ -203,10 +205,12 @@ h1 {
     margin-bottom: 0;
 }
 
-.proyecto img {
+/*.proyecto img {
     height: 250px;
     width: 370px;
-}
+
+
+}*/
 
 .proyecto {
     position: relative;
